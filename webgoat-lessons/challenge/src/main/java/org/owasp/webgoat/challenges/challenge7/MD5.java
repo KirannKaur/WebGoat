@@ -171,7 +171,9 @@ public class MD5 {
             is.close();
             return hash;
         }
-        return null;
+        catch(Excpeption  e) {
+            return null;
+        }
     }
 
     /**
